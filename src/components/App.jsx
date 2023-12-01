@@ -35,11 +35,14 @@ class App extends Component {
 
     return (
       <>
-        <h1 className={css.title}>Please leave feedback</h1>
-        <FeedbackOptions
+        <Section title="Please leave feedback">
+          <FeedbackOptions
           onLeaveFeedback={this.onLeaveFeedback}
           options={['good', 'neutral', 'bad']}
         />
+        </Section>
+        
+        
         <Section title="Statistics">
           {total !== 0 ? (
             <Statistics
