@@ -2,8 +2,9 @@ import css from './styles.module.css'
 import PropTypes from 'prop-types';
 
 const FeedbackOptions = ({ options, onLeaveFeedback }) => (
-  <div>
-        {options.map(option => (
+  <div className={css.container}>
+    {options.map(option => (
+        
         <button
             className={css.btn}
             key={option}
@@ -25,13 +26,3 @@ FeedbackOptions.propTypes = {
   onLeaveFeedback: PropTypes.func.isRequired,
 };
 
-
-
-
-
-
-//  <div className={css.container}>
-//                 <button name className={css.btn} onClick={this.handleIncrement}>Good</button>
-//                 <button name='neutral' className={css.btn} onClick={this.handleIncrement}>Neutral</button>
-//                 <button name='bad' className={css.btn} onClick={this.handleIncrement}>Bad</button>
-//         </div>

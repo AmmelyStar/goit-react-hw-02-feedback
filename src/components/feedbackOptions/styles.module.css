@@ -9,8 +9,9 @@
     display: flex;
     gap:10px;
     justify-content: center;
+    margin-bottom: 60px;
 }
-.btn{
+/* .btn{
     border-radius: 20px;
     width: 6%;
     background-color:rgb(122, 83, 158, 0.5);
@@ -18,13 +19,13 @@
     font-weight: 700;
     color: rgb(122, 83, 158);
    
- }   
+ }    */
 
 
 
 /* CSS */
 .btn {
-  align-items: center;
+  justify-content: center;
   appearance: none;
   background-clip: padding-box;
   background-color: initial;

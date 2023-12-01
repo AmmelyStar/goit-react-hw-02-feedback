@@ -1,13 +1,22 @@
-@import-normalize; /* bring in normalize.css styles */
+/* @import-normalize; bring in normalize.css styles */
+
+
+
+
+@keyframes animatedBackground {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
 
 body {
-  background: linear-gradient(to bottom, #11224d, #5d5959);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-
-  margin: 0;
-  overflow: hidden;
-
-  color: white;
+  background-size: 200% 200%;
+  background-image: linear-gradient(to right, #11224d, #5d5959);
+  animation: animatedBackground 3s ease infinite;
 }
