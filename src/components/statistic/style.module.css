@@ -1,0 +1,22 @@
+.list{
+    list-style: none;
+}
+
+.statistics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btnStatistic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px; /* Додайте потрібний відступ між групами елементів */
+}
+
+.totalStatistics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

@@ -1,7 +1,13 @@
+import Feedback from './feedback/Feedback'
+// import Statistics from './statistic/Statictics'
+
 export const App = () => {
   return (
     <div>
-      Anna
+      
+      <Feedback />
+
+      {/* <Statistics /> */}
 
     </div>
   );
