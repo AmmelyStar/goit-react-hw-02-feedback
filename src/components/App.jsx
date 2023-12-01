@@ -1,4 +1,3 @@
-import css from './feedbackOptions/styles.module.css';
 import { Component } from 'react';
 import Statistics from './statistic/Statictics';
 import FeedbackOptions from './feedbackOptions/FeedbackOption';
